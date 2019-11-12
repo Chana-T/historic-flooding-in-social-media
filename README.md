@@ -1,7 +1,7 @@
 # Project 5: Leveraging Social Media to Identify Major Historic Flood Events
 
 ## Problem Statement
-Floods are one of the most common occurring natural disasters which threaten human and animal life as well as cause significant damage to a city's infrastructure. In order to effectively equip cities to anticipate floods, a deep analysis on vulnerabilties of cities must be done. With that said, the impact of major floods on particular cities is difficult to determine due to there being minimal tools accessible to the public that can effectively identify major flood events on a global scale. This study aims to create an open-source tool to identify historical flood events based on data extracted from Twitter and international weather stations.
+Floods are one of the most common occurring natural disasters which threaten human and animal life as well as cause significant damage to a cities' infrastructure. In order to effectively equip cities to anticipate floods, a deep analysis on vulnerabilties of cities must be done. With that said, the impact of major floods on particular cities is difficult to determine due to there being minimal tools accessible to the public that can effectively identify major flood events on a global scale. This study aims to create an open-source tool to identify historical flood events based on data extracted from Twitter and international weather stations.
 
 
 ### Team Members
