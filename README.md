@@ -10,11 +10,11 @@ Floods are one of the most frequent natural disasters, which threaten human and 
 * [David Li](https://www.linkedin.com/in/davidgnli/)
 
 ## Executive Summary
-We knew Twitter would provide categorical information related to flood disasters. As a way to assess relevant and insightful tweets from unhelpful tweets(i.e. noise), we designated a developed city (Houston, TX) and a developing city (Manila, Philippines) as our use cases. Because floods are prevalent in different types of regions, it was important to choose two cities that could reflect this differenceas well as transcend cultural frames of reference. 
+We knew Twitter would provide categorical information related to flood disasters. As a way to assess relevant and insightful tweets from unhelpful tweets(i.e. noise), we designated a developed city (Houston, TX) and a developing city (Manila, Philippines) as our use cases. Because floods are prevalent in different types of regions, it was important to choose two cities that could reflect this difference in addition to transcend cultural frames of reference. 
 
-After scraping over 30,000+ tweets and taking a close look at how people tweeted during flood disasters, we found that the frequency of tweets was not always directly correlated to the impact of a flood. This led us to pursue science-based weather data as an objective viewpoint to analyze alongside user generated tweets. 
+After scraping over 30,000+ tweets and taking a close look at how people tweeted during flood disasters, we found that the frequency of tweets was not always directly correlated to the impact of a flood. This led us to pursue weather data as an objective viewpoint to analyze alongside the user generated tweets.
 
-By leveraging the cdo_api_py, we scraped official weather information from NOAA. We created a flexible function(get_weather) that utilizes several parameters in order to find the needed data. Our function allows you to find key weather information on a given region within a given date range.
+By leveraging the cdo_api_py, we scraped official weather information from NOAA. We created a flexible function(get_weather) that utilizes several parameters in order to find the desired data. Our function is able to highlight key weather information on a given region within a given date range.
 
 We realized that there could be multiple weather stations in close proximity to one another and therefore we decided to group the data by date and averaged the temperature along with the precipitation collected from those weather stations. 
 
