@@ -8,10 +8,11 @@ Floods are one of the most frequent natural disasters, which threaten human and 
 * [Chana Tilevitz](https://www.linkedin.com/in/chanatilevitz/)
 * [David Li](https://www.linkedin.com/in/davidgnli/)
 
-### Project Notebooks in order of workflow
+### Project Files in order of workflow
 1. [Twitter Scraper](./code/twitter_scraper.ipynb)
 2. [Twitter EDA and More](./code/twitt_EDA_and_more.ipynb)
 3. [Weather Collection](./code/POAA%20Data%20Collection.ipynb)
+4. [Slide Presentation](./flooding_impact_in_social_media.pdf)
 
 ## Executive Summary
 We knew Twitter would provide categorical information related to flood disasters. As a way to assess relevant and insightful tweets from unhelpful tweets(i.e. noise), we designated a developed city (Houston, TX) and a developing city (Manila, Philippines) as our use cases. Because floods are prevalent in different types of regions, it was important to choose two cities that could reflect this difference in addition to transcending cultural frames of reference. The locations of the cities were extracted based on keywords and hashtags found in tweets.
@@ -23,7 +24,7 @@ By leveraging the cdo_api_py, we scraped official weather information from NOAA.
 We realized that there could be multiple weather stations in close proximity to one another and therefore we decided to group the data by date and averaged the temperature along with the precipitation collected from those weather stations.
 
 ## Conclusion and Next Steps
-We were able to create an efficient and accessible tool, however, due to the limited time constraint, our tool is merely a jumping off point that may be expanded upon. As we discovered, the use of Twitter is not uniform across continents and thus performing sentiment analysis on tweets would produce a more in depth understanding regarding tone and language. It's important to note that the level of impact a flood may have is relative to the frequency in which a city experiences flood events. For example, floods happened more often in Manila than Houston and so people may not feel as inclined to report on every flood even if the flood causes significant damages. Furthermore, sourcing from other social media platforms such as news sources that are region-specific would prove useful in discerning the number of deaths, injuries, displacements, etc, a flood event inflicted. Also, our tool may be further enhanced by integrating with the considerable amount of flood event data available to government disaster agencies.
+We were able to create an efficient and accessible tool, however, due to the limited time constraint, our tool is merely a jumping off point that may be expanded upon. As we discovered, the use of Twitter is not uniform across continents and thus performing sentiment analysis on tweets would produce a more in depth understanding regarding tone and language. It's important to note that the level of impact a flood may have is relative to the frequency in which a city experiences flood events. For example, floods happened more often in Manila than Houston and so people may not feel as inclined to report on every flood even if the flood causes significant damages. Furthermore, sourcing from other social media platforms such as news sources that are region-specific would prove useful in discerning the number of deaths, injuries, displacements, etc, a flood event inflicted. Also, our tool may be further enhanced by integrating with the considerable amount of flood event data available to government disaster agencies. Finally, our product can be used to inform the selection of satellite imagery: once the dates of a particular flooding event have been identified, satellite photos from before and after the event can be used to identify the effects of the flood on a much more specific scale, down to the neighborhood level.
 
 ### Source Documentation
 * [National Oceanic and Atmospheric Administration](https://www.noaa.gov/weather)
