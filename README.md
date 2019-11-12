@@ -1,7 +1,7 @@
 # Project 5: Leveraging Social Media to Identify Major Historic Flood Events
 
 ## Problem Statement
-Floods are one of the most frequent natural disasters which threaten human and animal life as well as cause significant damage to cities' infrastructure. In order to effectively equip cities to anticipate floods, a deep analysis on vulnerabilties of cities is needed. That said, the impact of major floods on particular cities is difficult to determine due to there being minimal tools accessible to the public that can effectively identify major flood events on a global scale. This study aims to create an open-source tool to identify historical flood events based on data extracted from Twitter and international weather stations.
+Floods are one of the most frequent natural disasters, which threaten human and animal life as well as cause significant damage to cities' infrastructure. In order to effectively equip cities to anticipate floods, a deep analysis on vulnerabilties of cities is needed. That said, the impact of major floods on particular cities is difficult to determine due to there being minimal tools accessible to the public that can effectively identify major flood events on a global scale. This study aims to create an open-source tool to identify historical flood events based on data extracted from Twitter and international weather stations.
 
 
 ### Team Members
@@ -10,7 +10,7 @@ Floods are one of the most frequent natural disasters which threaten human and a
 * [David Li](https://www.linkedin.com/in/davidgnli/)
 
 ## Executive Summary
-We knew Twitter would provide categorical information related to flood disasters. As a way to assess relevant and insightful tweets from unhelpful tweets(i.e. noise), we designated a developed city (Houston, TX) and a developing city (Manila, Philippines) as our use cases. Because floods are prevalent in different types of regions, it was important to choose two cities that could reflect this difference in addition to transcend cultural frames of reference. 
+We knew Twitter would provide categorical information related to flood disasters. As a way to assess relevant and insightful tweets from unhelpful tweets(i.e. noise), we designated a developed city (Houston, TX) and a developing city (Manila, Philippines) as our use cases. Because floods are prevalent in different types of regions, it was important to choose two cities that could reflect this differenceas well as transcend cultural frames of reference. 
 
 After scraping over 30,000+ tweets and taking a close look at how people tweeted during flood disasters, we found that the frequency of tweets was not always directly correlated to the impact of a flood. This led us to pursue science-based weather data as an objective viewpoint to analyze alongside user generated tweets. 
 
