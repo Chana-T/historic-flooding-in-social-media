@@ -1,7 +1,7 @@
 # Project 5: Leveraging Social Media to Identify Major Historic Flood Events
 
 ## Problem Statement
-Floods are one of the most frequent natural disasters which threaten human and animal life as well as cause significant damage to cities' infrastructure. In order to effectively equip cities to anticipate floods, a deep analysis on vulnerabilties of cities must be done. With that said, the impact of major floods on particular cities is difficult to determine due to there being minimal tools accessible to the public that can effectively identify major flood events on a global scale. This study aims to create an open-source tool to identify historical flood events based on data extracted from Twitter and international weather stations.
+Floods are one of the most frequent natural disasters which threaten human and animal life as well as cause significant damage to cities' infrastructure. In order to effectively equip cities to anticipate floods, a deep analysis on vulnerabilties of cities is needed. That said, the impact of major floods on particular cities is difficult to determine due to there being minimal tools accessible to the public that can effectively identify major flood events on a global scale. This study aims to create an open-source tool to identify historical flood events based on data extracted from Twitter and international weather stations.
 
 
 ### Team Members
@@ -10,7 +10,11 @@ Floods are one of the most frequent natural disasters which threaten human and a
 * [David Li](https://www.linkedin.com/in/davidgnli/)
 
 ## Executive Summary
+We knew Twitter would provide categorical information related to flood disasters. As a way to assess relevant and insightful tweets from unhelpful tweets(i.e. noise), we designated a developed city(Houston, TX) and a developing city(Manila, Philipphines) as our use cases. 
 
+By leveraging the cdo_api_py, we scraped official weather information from NOAA. We created a flexible function(get_weather) that utilizes several parameters in order to find the needed data. Our function allows you to find key weather information on a given region within a given date range.
+
+We realized that there could be multiple weather stations in close proximity to one another and therefore we decided to group the data by date and averaged the temperature along with the precipitation collected from those weather stations. 
 
 
 ## Conclusion and Next Steps
