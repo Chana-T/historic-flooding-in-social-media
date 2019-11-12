@@ -10,7 +10,9 @@ Floods are one of the most frequent natural disasters which threaten human and a
 * [David Li](https://www.linkedin.com/in/davidgnli/)
 
 ## Executive Summary
-We knew Twitter would provide categorical information related to flood disasters. As a way to assess relevant and insightful tweets from unhelpful tweets(i.e. noise), we designated a developed city(Houston, TX) and a developing city(Manila, Philipphines) as our use cases. 
+We knew Twitter would provide categorical information related to flood disasters. As a way to assess relevant and insightful tweets from unhelpful tweets(i.e. noise), we designated a developed city (Houston, TX) and a developing city (Manila, Philippines) as our use cases. Because floods are prevalent in different types of regions, it was important to choose two cities that could reflect this difference in addition to transcend cultural frames of reference. 
+
+After scraping over 30,000+ tweets and taking a close look at how people tweeted during flood disasters, we found that the frequency of tweets was not always directly correlated to the impact of a flood. This led us to pursue science-based weather data as an objective viewpoint to analyze alongside user generated tweets. 
 
 By leveraging the cdo_api_py, we scraped official weather information from NOAA. We created a flexible function(get_weather) that utilizes several parameters in order to find the needed data. Our function allows you to find key weather information on a given region within a given date range.
 
