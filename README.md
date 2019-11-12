@@ -3,7 +3,6 @@
 ## Problem Statement
 Floods are one of the most frequent natural disasters, which threaten human and animal life as well as cause significant damage to cities' infrastructure. In order to effectively equip cities to anticipate floods, a deep analysis on vulnerabilties of cities is needed. That said, the impact of major floods on particular cities is difficult to determine due to there being minimal tools accessible to the public that can effectively identify major flood events on a global scale. This study aims to create an open-source tool to identify historical flood events based on data extracted from Twitter and international weather stations.
 
-
 ### Team Members
 * [Angeline Lee](https://www.linkedin.com/in/angelinevlee/)
 * [Chana Tilevitz](https://www.linkedin.com/in/chanatilevitz/)
@@ -18,18 +17,8 @@ By leveraging the cdo_api_py, we scraped official weather information from NOAA.
 
 We realized that there could be multiple weather stations in close proximity to one another and therefore we decided to group the data by date and averaged the temperature along with the precipitation collected from those weather stations. 
 
-
 ## Conclusion and Next Steps
-
-Sentiment Analysis on Tweets
-
-Integrate with government disaster agencies
-
-Integrate with satellite imagery
-
-Source from more international weather services
-
-Source from other social media platforms (i.e. region-specific)
+We were able to create an efficient and accessible tool, however, due to the limited time constraint, our tool is merely a jumping off point that may further be expanded upon. As we discovered, the use of Twitter is not uniform across continents and thus performing sentiment analysis on tweets would produce a more in depth understanding regarding tone and language. Furthermore, sourcing from other social media platforms such as news sources that are region-specific would prove useful in discerning the number of deaths, injuries, displacements, etc, a flood event inflicted. Also, our tool may be further enhanced by integrating with the considerable amount of flood event data available to government disaster agencies.
 
 
 ### Source Documentation
