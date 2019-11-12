@@ -28,7 +28,7 @@ Source from other social media platforms (i.e. region-specific)
 
 ### Source Documentation
 * [National Oceanic and Atmospheric Administration](https://www.noaa.gov/weather)
-* [Houston, TX Disaster That Wasn't](https://www.houstonpublicmedia.org/articles/news/2017/06/22/205744/the-storm-that-wasnt/)
+* [Houston Disaster That Wasn't](https://www.houstonpublicmedia.org/articles/news/2017/06/22/205744/the-storm-that-wasnt/)
 * [Houston Flood 2014](http://floodlist.com/america/usa/thunderstorm-flash-floods-houston-texas)
 * [Houston Flood 2015](http://floodlist.com/america/usa/texas-floods-6-killed-after-storms-sweep-through-austin-and-houston)
 * [Manila Flood 2014](https://center.noah.up.edu.ph/habagat-2014-flood-marikina-city/)
